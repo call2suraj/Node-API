@@ -83,11 +83,11 @@ app.delete('/products/:id', async(req, res) =>{
 mongoose.set("strictQuery", false)
 mongoose.
 // connect('mongodb+srv://admin:12345678Admin@devtaminapi.zpncstm.mongodb.net/Node-API?retryWrites=true&w=majority')
-connect('mongodb+srv://call2suraj:Struts88@cluster0.ktindni.mongodb.net/Node-API?retryWrites=true&w=majority')
+connect('mongodb+srv://surajbehera:Struts88@cluster0.ktindni.mongodb.net/Node-API?retryWrites=true&w=majority')
 .then(() => {
     console.log('connected to MongoDB')
-    app.listen(3000, ()=> {
-        console.log(`Node API app is running on port 3000`)
+    app.listen(3001, ()=> {
+        console.log(`Node API app is running on port 3001`)
     });
 }).catch((error) => {
     console.log(error)
